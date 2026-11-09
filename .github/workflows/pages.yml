@@ -31,7 +31,7 @@ jobs:
           cp -r index.html assets data .nojekyll _site/
 
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - id: deployment
