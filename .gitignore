@@ -1,0 +1,6 @@
+# Private: contain the student's e-mail and Azure subscription ID
+docs/report/
+docs/screenshots/azure-*
+# Local
+__pycache__/
+*.pyc
